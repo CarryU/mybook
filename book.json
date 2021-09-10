@@ -1,0 +1,36 @@
+{
+  "title" : "My Gitbook",
+  "author": "longfeng",
+  "description": "好记性不如G笔记",
+  "language" : "zh-hans",
+  "gitbook": "3.2.3",
+  "links" : {
+    "sidebar" : {
+      "Home" : "https://www.baidu.com"
+    }
+  },
+
+  "plugins": [
+    "-search",
+    "-share",
+    "code",
+    "expandable-chapters-small",
+    "back-to-top-button",
+    "chapter-fold",
+    "lightbox",
+    "hide-element",
+    "splitter",
+    "pageview-count",
+    "mermaid-gb3"
+  ],
+  "pluginsConfig": {
+    "code": {
+      "copyButtons": true
+    },
+    "hide-element": {
+            "elements": [".gitbook-link"]
+        }
+
+  }
+
+}
